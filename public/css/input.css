@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero-1 {
+  background-image: url("/assets/images/hero-1.png");
+  background-size: cover;
+  animation-delay: 0s;
+}
+
+#hero-2 {
+  background-image: url("/assets/images/hero-2.png");
+  background-size: cover;
+  animation-delay: 5s;
+}
+
+#hero-3 {
+  background-image: url("/assets/images/hero-3.png");
+  background-size: cover;
+  animation-delay: 10s;
+}
+
+.x-announcement {
+  background-image: url("/assets/images/bg-pengumuman.png");
+  background-size: cover;
+}
